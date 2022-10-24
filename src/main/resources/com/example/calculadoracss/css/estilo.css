@@ -1,0 +1,88 @@
+.root {
+    -fx-margin: 50px;
+    -fx-padding: 10px;
+}
+.verde {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#3cfa06, #009f11);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+}
+
+.verde:hover {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#009f11, #3cfa06);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+}
+
+.rojo {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#fa0606, #9b2929);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+}
+
+.rojo:hover {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#9b2929, #fa0606);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+}
+
+.numeros {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#0033ff, #4e75ff);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+
+}
+
+.numeros:hover {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#4e75ff, #0033ff);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+}
+
+.amarillo {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#ffeb00, #ffed5b);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+}
+
+.amarillo:hover {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#fff0ae, #ffec00);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+    -fx-background-radius: 15px;
+}
